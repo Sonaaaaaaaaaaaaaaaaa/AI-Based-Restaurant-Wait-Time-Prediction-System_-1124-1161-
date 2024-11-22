@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Day:</strong> {{ day }}</p>
+        <p><strong>Time:</strong> {{ time }}</p>
+        <p><strong>Restaurant:</strong> {{ restaurant }}</p>
+        <p><strong>Wait Time Prediction:</strong> {{ final_wait_time }}</p>
+        <p><strong>Suggestion:</strong> {{ suggestion }}</p>
+    </div>
+</body>
+</html>

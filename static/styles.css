@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #3e2723, #6a4f3d); /* Dark brown gradient */
+    color: #f4f4f4; /* Light text color for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(255, 255, 255, 0.1); /* Slightly opaque white background */
+    padding: 20px;  /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;  /* Reduced width to make the form more compact */
+    max-width: 600px; /* Adjusted max-width */
+}
+
+/* Title Styling */
+h1 {
+    text-align: center;
+    font-size: 2em;  /* Reduced font size */
+    color: #f09a30; /* Golden color for royal feel */
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduced gap between form elements */
+}
+
+/* Label Styling */
+form label {
+    font-size: 1.1em; /* Slightly reduced font size */
+    color: #e4b97a; /* Light tan color */
+    font-weight: bold;
+}
+
+/* Input and Select Styling */
+form input,
+form select {
+    padding: 10px; /* Reduced padding */
+    font-size: 0.95em; /* Slightly smaller font size */
+    background-color: #4e342e; /* Dark earthy brown */
+    border: 1px solid #6d4c41; /* Lighter brown for contrast */
+    border-radius: 8px;
+    color: #f4f4f4; /* White text for readability */
+}
+
+form input[type="text"],
+form select {
+    transition: background-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form select:focus {
+    background-color: #3e2723; /* Darker brown on focus */
+    border-color: #f1c40f; /* Golden border for focus */
+}
+
+/* Button Styling */
+form button {
+    padding: 12px; /* Reduced padding */
+    font-size: 1.1em; /* Slightly smaller font size */
+    background-color: #f3a135; /* Golden color for button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f39c12; /* Slightly darker golden color for hover */
+}
+
+/* Prediction Result Styling */
+p {
+    font-size: 1.1em; /* Slightly reduced font size */
+    color: #f4f4f4;
+    margin: 8px 0; /* Reduced margin */
+}
+
+strong {
+    color: #e4b97a; /* Light tan for labels */
+}
